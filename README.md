@@ -1,6 +1,6 @@
 # Finite-element simulations on soliton interactions in the framework of potential-flow equations
 ## :information_source: General information
-- This repository contains codes for FE simulations on soliton interactions based on PFE in an x-periodic computational domain, which consist of four `.py` files.
+- This repository contains codes for FE simulations on soliton interactions based on PFE in an x-periodic computational domain, which consist of four `.py` files. They are put in the folders with name `Codes` plus the version number.
   - `3D_tank_periodic.py`: main code
   - `settings.py`: to specify the parameters of one simulation
   - `savings.py`: anything related to the output of numerical results
