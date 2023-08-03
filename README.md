@@ -6,6 +6,10 @@
   - `savings.py`: anything related to the output of numerical results
   - `solvers.py`: to generate weak formulations for SE and SV time-stepping schemes
 - The pre-processing and post-processing codes for each case are also provided.
+- After the end of one simulation, the results are output into three files:
+  - `readme.txt`: details of the test case
+  - `energy.csv`: the record of the total energy evolution
+  - `soliton.pvd`: field data of $h(x,y,t)$ and $\tilde{\phi}(x,y,z=h,t)$ that can be visualised via *ParaView*
 
 ## :one: Single-soliton simulations (SP1, 2D)
 - Pre-Processing code: `prep-SP1-KPE_solution.py`
