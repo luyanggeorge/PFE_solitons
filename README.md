@@ -17,6 +17,7 @@
 
 ## :two: Two-soliton interactions (SP2, 3D)
 - Pre-Processing code: `prep-SP2-plot_IC.py`
+- Post-Processing codes: `postp-SP2-Energy.py`, `postp-SP2-cross-section.py`
 
 ## :hash: Other
 - `Gauss-Labatto_FIAT.py`: print the GLL nodes along the z-direction with the help of `FIAT.quadrature` module (can be compared with that in the main code, which uses `sympy.integrals.quadrature` instead.)
