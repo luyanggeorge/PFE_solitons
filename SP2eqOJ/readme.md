@@ -1,7 +1,7 @@
 ## Codes for SP2 simulations.
 - Mathematically it's equivalent to the VP-approach by Onno and Junho, instead the explicit weak formulations are used here:
   - The high-order $\mu^2$ term is ignored when setting the IC for $\phi$ and $\tilde{\phi}$;
-  - $U_0$ and $c_0$ are only evaluated once at the beginning of the simulation;
+  - $U_0$ and $c_0$ are only evaluated once at the beginning of the simulation.
 - Solver parameters designed by Colin for MMP can speed up the code significantly using SV (ca 3.5 times faster)
     ```
     param_cc = {'ksp_type': 'gmres',
